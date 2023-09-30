@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button, {PropButton} from './Button'
 import Card from './Card'
+import Bootstrap from './Bootstrap'
 
 function App() {
 
@@ -71,6 +72,10 @@ function App() {
                     onClickChange={(val)=> click(val)}/>
                 ))}
             </div>
+
+            <br /><br />
+            <h2>Bootstrap</h2>
+            <Bootstrap/>
             
         </>
     )
